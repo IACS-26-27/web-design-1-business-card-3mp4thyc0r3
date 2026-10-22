@@ -22,6 +22,15 @@ h6 {
 
 /* Your flexbox card styles go here! */
 .card-front {
+  background-image: url(images/IMG_1975.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-back {
+  background-image: url(images/IMG_1986.jpeg);
+  background-size: cover;
+  background-position:
 }
 
 /* Honors: styles for each card size, for example:
