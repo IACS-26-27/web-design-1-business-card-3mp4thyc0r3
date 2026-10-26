@@ -21,16 +21,51 @@ h6 {
 */
 
 /* Your flexbox card styles go here! */
+.flex {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
 .card-front {
   background-image: url(images/IMG_1975.jpeg);
   background-size: cover;
   background-position: center;
 }
 
+
 .card-back {
   background-image: url(images/IMG_1986.jpeg);
   background-size: cover;
-  background-position:
+  background-position: center;
+}
+
+h1 {
+  color: rgb(255, 255, 73);
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  padding: 15px;
+  justify-self: center;
+}
+
+p {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+  max-width: 175px;
+  padding-left: 5px;
+  color: rgb(48, 2, 103);
+  background-color: rgb(187, 190, 206);
+}
+
+em {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 50);
 }
 
 /* Honors: styles for each card size, for example:
